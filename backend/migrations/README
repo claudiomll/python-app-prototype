@@ -1,0 +1,21 @@
+Generic single-database configuration with an async dbapi.
+
+# Init
+
+```
+alembic revision --autogenerate -m "init"
+```
+
+# Update Version
+
+```
+alembic revision --autogenerate -m "<version name>"
+```
+
+
+# Upgrade DB
+
+```
+alembic upgrade head
+```
+
